@@ -1,0 +1,9 @@
+name: cars_test
+root: .
+
+windows:
+  - editor:
+      layout: even-vertical
+      panes:
+        - cd json_server && make server
+        - make up
